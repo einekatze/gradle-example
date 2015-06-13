@@ -8,10 +8,11 @@ It can be used to try out various Gradle features for Java development, such as:
   * By default, you will only see any output about testing if tests fail.
   * `gradle test` automatically generates a HTML report about all tests, see `build/reports/tests/index.html`.
 * Making a distributable version of it (`gradle installDist` - output is in `build/install`)
+  * You can also use `distZip` or `disTar` to create a ZIP or Tar archive of `installDist`'s output under `build/distributions`.
 * Generating Javadocs (`gradle javadoc` - output is in `build/docs`)
+* Clean the build directory (`gradle clean` - deletes the `build` folder)
 
 ## Running Gradle
-co
 This project includes a [Gradle Wrapper](https://docs.gradle.org/current/userguide/gradle_wrapper.html) so you don't need to download and install Gradle yourself. To use this wrapper, replace "gradle" with "gradlew" when running tasks, e.g. `gradlew javadoc`. It will automatically download Gradle for use with the current project.
 
 If you're on Windows:
