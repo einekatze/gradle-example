@@ -31,13 +31,13 @@ repositories {
 // "testCompile" will make the dependency only get included in the build when you're running tests.
 dependencies {
     // Add Logback, a logging framework.
-    compile 'ch.qos.logback:logback-classic:1.1.3'
+    compile "ch.qos.logback:logback-classic:1.1.3"
 
     // When running tests, use JUnit.
-    testCompile 'junit:junit:4.12'
+    testCompile "junit:junit:4.12"
 }
 
 // This is needed by javadoc if you want to use umlauts or accents in your documentation.
 javadoc {
-    options.charSet = 'UTF-8'
+    options.charSet = "UTF-8"
 }
