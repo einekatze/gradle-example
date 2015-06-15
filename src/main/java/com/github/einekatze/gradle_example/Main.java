@@ -12,7 +12,7 @@ public class Main {
         log.info("Starting up.");
 
         Adder adder = new Adder();
-        int result = adder.add(3, 5);
+        long result = adder.add(3, 5);
 
         log.info("Result: {}", result);
     }

@@ -15,7 +15,7 @@ public class Adder {
      * @param b The second number.
      * @return The sum of a and b.
      */
-    public int add(int a, int b) {
+    public long add(int a, int b) {
         log.debug("Adding {} to {}!", a, b);
         return a + b;
     }

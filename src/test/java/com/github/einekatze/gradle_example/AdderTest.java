@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 public class AdderTest {
     @Test
     public void testAdd() throws Exception {
-        int result = new Adder().add(3, 5);
-        assertEquals(result, 8);
+        long result = new Adder().add(3, 5);
+        assertEquals(8, result);
     }
 }
